@@ -1,0 +1,39 @@
+# Gate / ArUco layout (project default route: single first, then four_corners)
+# Change only active_layout when switching phase; keep hole size and IDs unchanged.
+
+active_layout: single
+
+dictionary: DICT_4X4_50
+# Black square side (m). Current printed markers in this project measure 14.65 cm.
+marker_length_m: 0.1465
+
+hole:
+  width_m: 0.60
+  height_m: 0.60
+  marker_margin_m: 0.04
+
+single:
+  reference_id: 0
+  # Minimal V1 single-marker model:
+  # marker plane is parallel to gate plane, and gate center lies a fixed distance
+  # along one marker axis direction. Default recommendation for a marker mounted
+  # below the hole: marker_neg_y means the gate center is 1 m above the marker
+  # in OpenCV marker/image coordinates (x right, y down, z forward).
+  marker_to_gate_direction: marker_pos_y
+  marker_to_gate_distance_m: 1.0
+  yaw_zero_offset_deg: 90.0
+  # Advanced / compatibility override: if set, this explicit translation is used
+  # instead of direction + distance.
+  # marker_to_gate_offset_m: [0.0, -1.0, 0.0]
+
+four_corners:
+  ids:
+    top_left: 0
+    top_right: 1
+    bottom_right: 2
+    bottom_left: 3
+
+camera:
+  mount_preset: forward_frd
+  offset_body_m: [0.09, 0.0, 0.0]
+  rpy_body_deg: [0.0, 0.0, 0.0]
