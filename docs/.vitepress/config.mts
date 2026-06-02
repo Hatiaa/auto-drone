@@ -30,6 +30,10 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Hatiaa/auto-drone' }
     ],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2026 Hatiaa'
+    },
     search: {
       provider: 'local'
     }
