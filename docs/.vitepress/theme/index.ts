@@ -1,13 +1,7 @@
-import DefaultTheme from 'vitepress/theme'
-import { h } from 'vue'
-import AutoDroneFooter from './AutoDroneFooter.vue'
+import DuxTheme from '@duxweb/vitepress-theme'
+import '@duxweb/vitepress-theme/dist/index.css'
+import './custom.css'
 
 export default {
-  extends: DefaultTheme,
-  Layout() {
-    return h(DefaultTheme.Layout, null, {
-      'layout-bottom': () => h(AutoDroneFooter)
-    })
-  }
+  extends: DuxTheme
 }
-

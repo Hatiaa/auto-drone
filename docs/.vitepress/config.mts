@@ -1,6 +1,6 @@
-import { defineConfig } from 'vitepress'
+import { withDuxTheme } from '@duxweb/vitepress-theme/config'
 
-export default defineConfig({
+export default withDuxTheme({
   title: 'auto-drone',
   description: '基于 Pixhawk、ArduPilot、Jetson Nano 和 ArUco 的自主飞行项目文档',
   lang: 'zh-CN',
@@ -34,6 +34,10 @@ export default defineConfig({
     ],
     search: {
       provider: 'local'
+    },
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2026 Hatiaa'
     }
   }
 })

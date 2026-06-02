@@ -9,7 +9,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
+    "@duxweb/vitepress-theme": "^1.1.9",
     "vitepress": "^1.6.4"
   }
 }
-
