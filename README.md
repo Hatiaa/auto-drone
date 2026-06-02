@@ -115,6 +115,17 @@ cd auto-drone/vision
 - [检查表](docs/checklists.md)
 - [排错指南](docs/troubleshooting.md)
 
+## 文档站部署
+
+仓库内置 VitePress 文档站配置，可直接部署到 Netlify。Netlify 构建配置为：
+
+```text
+Build command: npm run docs:build
+Publish directory: docs/.vitepress/dist
+```
+
+本仓库不需要为文档单独拆分新仓库。文档与代码保持在同一仓库中，便于后续 PR 同时更新功能实现和对应说明。
+
 ## 安全边界
 
 本仓库的飞行代码会向真实飞控发送控制指令。任何电机测试必须先拆除螺旋桨；任何上桨飞行必须保留遥控器接管能力，先完成通信、传感器、模式切换和无桨电机验证，再进入低高度、低速度、短距离测试。

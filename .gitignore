@@ -8,6 +8,9 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
 .venv/
 venv/
 env/
@@ -24,4 +27,3 @@ dist/
 calib_images/
 captures/
 outputs/
-
