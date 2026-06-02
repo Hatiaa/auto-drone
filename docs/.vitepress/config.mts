@@ -23,7 +23,7 @@ export default withDuxTheme({
       {
         text: '项目文档',
         items: [
-          { text: '首页', link: '/' },
+          { text: '首页', link: '/index' },
           { text: '硬件接线', link: '/hardware-wiring' },
           { text: 'Nano 热点与 SSH', link: '/nano-hotspot-ssh' },
           { text: 'ArduPilot 参数配置', link: '/ardupilot-params' },
