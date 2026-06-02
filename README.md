@@ -110,6 +110,7 @@ cd auto-drone/vision
 在线文档站：[https://thuautodronedoc.netlify.app](https://thuautodronedoc.netlify.app)
 
 - [硬件接线](docs/hardware-wiring.md)
+- [Nano 热点与 SSH](docs/nano-hotspot-ssh.md)
 - [ArduPilot 参数配置](docs/ardupilot-params.md)
 - [自主前飞流程](docs/flight-guided-forward.md)
 - [ArUco 视觉跟随](docs/vision-aruco-follow.md)

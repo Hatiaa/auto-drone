@@ -2,7 +2,7 @@
 
 ## Nano 热点和 SSH
 
-电脑连接 Nano 热点后，使用固定 IP 登录：
+完整配置流程见 [Jetson Nano 热点与 SSH 连接](./nano-hotspot-ssh.md)。电脑连接 Nano 热点后，使用固定 IP 登录：
 
 ```bash
 ssh jetson@192.168.1.100
@@ -136,4 +136,3 @@ ls /dev/video*
 ```
 
 若通过 SSH 运行且没有图形界面，添加 `--headless`。视觉跟随主脚本不依赖 `imshow`，但相机必须能被 OpenCV 打开。
-

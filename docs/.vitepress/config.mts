@@ -17,6 +17,7 @@ export default defineConfig({
         items: [
           { text: '首页', link: '/' },
           { text: '硬件接线', link: '/hardware-wiring' },
+          { text: 'Nano 热点与 SSH', link: '/nano-hotspot-ssh' },
           { text: 'ArduPilot 参数配置', link: '/ardupilot-params' },
           { text: '自主前飞流程', link: '/flight-guided-forward' },
           { text: 'ArUco 视觉跟随', link: '/vision-aruco-follow' },
@@ -34,4 +35,3 @@ export default defineConfig({
     }
   }
 })
-
