@@ -135,7 +135,3 @@ Publish directory: docs/.vitepress/dist
 ## 后续开发
 
 后续开发请先 fork 本仓库，不建议直接在原仓库上修改。新的自动飞行特性、视觉识别功能、控制策略、仿真流程、文档补充或代码重构，欢迎通过 Pull Request 提交，共同完善这个项目。
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Hatiaa/auto-drone&type=Date)](https://star-history.com/#Hatiaa/auto-drone&Date)
