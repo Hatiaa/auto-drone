@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@duxweb/vitepress-theme": "^1.1.9",
+    "markdown-it-task-lists": "^2.1.1",
     "vitepress": "^1.6.4"
   }
 }

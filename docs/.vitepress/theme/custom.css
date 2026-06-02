@@ -58,3 +58,24 @@ html.dark ::selection {
   box-shadow: none;
   padding: 2px 6px;
 }
+
+.prose-content li.task-list-item {
+  list-style: none;
+}
+
+.prose-content li.task-list-item::marker {
+  content: "";
+}
+
+.prose-content li.task-list-item::before {
+  display: none;
+  content: none;
+}
+
+.prose-content .task-list-item-checkbox {
+  width: 14px;
+  height: 14px;
+  margin: 0 8px 0 0;
+  vertical-align: -2px;
+  accent-color: var(--auto-doc-blue-accent);
+}

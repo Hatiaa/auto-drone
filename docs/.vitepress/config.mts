@@ -1,4 +1,5 @@
 import { withDuxTheme } from '@duxweb/vitepress-theme/config'
+import taskLists from 'markdown-it-task-lists'
 
 export default withDuxTheme({
   title: 'auto-drone',
@@ -8,6 +9,11 @@ export default withDuxTheme({
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]
   ],
+  markdown: {
+    config(md) {
+      md.use(taskLists)
+    }
+  },
   themeConfig: {
     siteTitle: 'auto-drone',
     nav: [
