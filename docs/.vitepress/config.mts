@@ -5,11 +5,13 @@ export default defineConfig({
   description: '基于 Pixhawk、ArduPilot、Jetson Nano 和 ArUco 的自主飞行项目文档',
   lang: 'zh-CN',
   cleanUrls: true,
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]
+  ],
   themeConfig: {
     siteTitle: 'auto-drone',
     nav: [
-      { text: '文档首页', link: '/' },
-      { text: 'GitHub', link: 'https://github.com/Hatiaa/auto-drone' }
+      { text: '文档首页', link: '/' }
     ],
     sidebar: [
       {
@@ -30,10 +32,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Hatiaa/auto-drone' }
     ],
-    footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2026 Hatiaa'
-    },
     search: {
       provider: 'local'
     }
