@@ -119,3 +119,10 @@ cd auto-drone/vision
 
 本仓库的飞行代码会向真实飞控发送控制指令。任何电机测试必须先拆除螺旋桨；任何上桨飞行必须保留遥控器接管能力，先完成通信、传感器、模式切换和无桨电机验证，再进入低高度、低速度、短距离测试。
 
+## 后续开发
+
+后续开发请先 fork 本仓库，不建议直接在原仓库上修改。新的自动飞行特性、视觉识别功能、控制策略、仿真流程、文档补充或代码重构，欢迎通过 Pull Request 提交，共同完善这个项目。
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Hatiaa/auto-drone&type=Date)](https://star-history.com/#Hatiaa/auto-drone&Date)
