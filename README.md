@@ -42,6 +42,9 @@ auto-drone/
     experiments/                 # 早期视觉实验原型
     camera_params.npz            # 当前项目相机标定示例
   docs/                          # 复现、配置、排错和检查表
+  materials/
+    presentation/                 # 课程汇报演示文稿
+    poster/                       # 项目海报
 ```
 
 ## 环境安装
